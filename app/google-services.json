@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "623641583310",
+    "project_id": "fir-practicekt",
+    "storage_bucket": "fir-practicekt.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623641583310:android:576eabb7cf60e10e42ba9f",
+        "android_client_info": {
+          "package_name": "com.anondo.firebasepracticekt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7mkJMnD5FhVZI-xfEVHxTTm8yN2KPYXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
