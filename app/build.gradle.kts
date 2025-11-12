@@ -53,5 +53,4 @@ dependencies {
     implementation("com.google.firebase:firebase-inappmessaging-display")
     implementation("com.google.firebase:firebase-messaging")
 
-
 }

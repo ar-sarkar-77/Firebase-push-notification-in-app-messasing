@@ -19,7 +19,6 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
         private const val TAG = "MyFirebaseMsgService"
     }
 
-    // [START receive_message]
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
         // TODO(developer): Handle FCM messages here.
 
@@ -27,6 +26,10 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
             var messageBody = remoteMessage.notification?.body.toString()
             var messageTitle = remoteMessage.notification?.title.toString()
 
+            sendNotification(messageBody , messageTitle)
+        }else{
+            var messageBody = remoteMessage.data.get("body").toString()
+            var messageTitle = remoteMessage.data.get("title").toString()
             sendNotification(messageBody , messageTitle)
         }
 
